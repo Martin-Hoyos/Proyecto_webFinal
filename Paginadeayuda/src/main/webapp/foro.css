@@ -1,0 +1,237 @@
+@charset "UTF-8";
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8f0;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #188447a1;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header .logo img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1 {
+    font-size: 2rem;
+    margin: 10px 0;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #188447a1;
+    z-index: 100;
+    padding: 10px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #f0f8f0;
+}
+
+#chat, #profesionales {
+    padding: 2em;
+    margin: 1em 2em;
+    background-color: rgb(166, 11, 76);
+    border-radius: 5px;
+}
+
+#Preguntas, #Preguntas2 {
+    padding: 2em;
+    margin: 1em 2em;
+    background-color: #a9e1f2;
+    border-radius: 5px;
+}
+
+.btn {
+    border: none; 
+    color: white; 
+    padding: 14px 28px; 
+    cursor: pointer; 
+    border-radius: 5px; 
+    display: inline-flex;
+}
+
+.primario {
+    background-color: #da3a09; 
+    transition: background-color 0.3s;
+}
+
+.primario:hover {
+    background-color: #3d15ee;
+}
+
+
+#noticias_falsas, #Donativos {
+    padding: 2em;
+    margin: 1em 2em;
+    background-color: #f9a67a;
+    border-radius: 5px;
+}
+
+#quienes-somos {
+    display: flexbox;
+    padding: 1em; 
+    margin: 2em auto; 
+    background-color: #dd7740;
+    border-radius: 15px;
+    border: 2px solid #863e18;
+    max-width: 700px; 
+    text-align: center;
+    position: relative;
+    left: 1%;
+}
+
+#contenedor1, #contenedor2, #contenedor3, #contenedor4 {
+    display: inline-block;
+    padding: 2em;
+    margin: 1em 2em;
+    background-color: rgb(149, 238, 186);
+    border-radius: 10px;
+    width: 200px;
+    height: 160px;
+}
+
+#contenedor3, #contenedor4 {
+    background-color: rgb(237, 76, 106);
+}
+
+#contacto {
+    background-color: #188447a1;
+    color: #fff;
+}
+
+#link_titulo {
+    color: #188447;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+#link_titulo:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+#pie {
+    color: white;
+}
+
+h2 {
+    color: black;
+}
+
+#chat {
+    width: 700px; /* Ajuste de ancho similar a otros contenedores */
+    padding: 2em;
+    margin: 1em auto; /* Centrado en la página */
+    background-color: rgb(247, 197, 150);
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+
+
+#chat .btn-container {
+    display: flex;
+    gap: 1em;
+    text-align: center;
+}
+
+#enviadita {
+    border: none;
+    color: rgb(35, 40, 208); 
+    padding: 14px 28px; 
+    cursor: pointer; 
+    border-radius: 5px; 
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Contenedortext {
+    
+    padding: 2em;
+    text-align: justify;
+}
+
+#profesionales {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2.5em; 
+    margin: 1em auto;
+    background-color: #fdefe8;
+    border-radius: 5px;
+    flex-direction: column;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 750px; 
+    text-align: center;
+}
+
+#profesionales h3 {
+    color: #188447;
+    margin-bottom: 1em;
+    font-size: 1.6rem; 
+}
+
+
+#profesionales ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 500px; 
+    text-align: left; 
+}
+
+#profesionales li {
+    padding: 0.75em 0;
+    font-size: 1em;
+    color: #333;
+    border-bottom: 1px solid #ddd;
+}
+
+#profesionales li:last-child {
+    border-bottom: none;
+}
+
+#profesionales li a {
+    color: #188447;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+#profesionales li a:hover {
+    color: #dd7740;
+    text-decoration: underline;
+}
