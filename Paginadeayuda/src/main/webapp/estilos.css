@@ -57,13 +57,24 @@ nav ul li a:hover {
     font-weight: bold;
 }
 
-#impacto, #como-ayudar, #contacto, #compartir_coche, #encontrar_coche, #r.entrega {
+#impacto, #como-ayudar, #contacto, #compartir_coche, #encontrar_coche, #r.entrega{
     padding: 2em;
     margin: 1em 2em;
     background-color: #e8e8e8;
     border-radius: 5px;
-    text-align: justify;
+    
 }
+#ver_soli {
+    padding: 2em;
+    margin: 1em 2em;
+    background-color: #e8e8e8; /* Matches the background */
+    border-radius: 5px;
+    text-align: center; /* Center the text */
+    font-weight: bold; /* Makes text bold for emphasis */
+    font-size: 1.1em; /* Adjust font size to match */
+    color: black; /* Ensure the text color is black */
+}
+
 
 #noticias_falsas, #Donativos {
     padding: 2em;
@@ -138,25 +149,3 @@ h2 {
     margin-bottom: 20px;
 }
 
-/* Clase para estilizar botones como enlaces */
-.btn-link {
-    background: none;
-    border: none;
-    color: black;
-    text-align: left;
-    padding: 0;
-    font-size: 1em;
-    cursor: pointer;
-    font-family: inherit;
-}
-
-.btn-link h2 {
-    color: black;
-    text-decoration: underline;
-    margin: 0;
-}
-
-.btn-link p {
-    color: black;
-    margin: 0;
-}

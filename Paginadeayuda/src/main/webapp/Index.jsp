@@ -22,7 +22,7 @@
                 <li><a href="profesionales2.jsp">Profesionales</a></li>
                 <li><a href="puntosayuda.jsp">Puntos de Ayuda</a></li>
                 <li><a href="iniciosesion.jsp">Iniciar Sesion</a></li>
-            </ul>
+  	          </ul>
         </nav>
     </header>
     
@@ -32,9 +32,10 @@
         <p>Somos un Grupo de estudiantes sin ánimo de lucro dedicados a apoyar a las comunidades afectadas por la DANA en diferentes regiones.</p>
     </section>
     
-<section id="ver-solicitudes">
+    
+<section id="ver_soli">
     <form action="mostrar_solicitud" method="get">
-        <button id="btn_ver_solicitudes" type="submit" class="btn-link">
+        <button id="btn_ver_solicitudes" type="submit" >
             <h2>Ver Solicitudes de Ayuda</h2>
             <p>En esta página, puedes consultar todas las solicitudes de ayuda enviadas por personas afectadas por la DANA. Aquí, se registran las necesidades específicas de cada solicitud, permitiendo a los voluntarios y organizaciones brindar apoyo en las áreas afectadas.</p>
             <p>Revisa cada solicitud para entender mejor las necesidades de los afectados y encontrar formas de contribuir a su recuperación.</p>

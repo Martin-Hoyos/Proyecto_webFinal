@@ -18,8 +18,8 @@ import javax.servlet.http.HttpServletResponse;
 public class solicitud_formulario extends HttpServlet {
 
     private static final long serialVersionUID = 1L;
-    private static final String DB_URL = "mysql://ueaxccosiwgfnuo5:J9d5wTPIyWsgRyXmEJfd@bew3kbjtj9n5faq31kla-mysql.services.clever-cloud.com:3306/bew3kbjtj9n5faq31klas"; 
-    
+	private static final String DB_URL = "jdbc:mysql://ueaxccosiwgfnuo5:J9d5wTPIyWsgRyXmEJfd@bew3kbjtj9n5faq31kla-mysql.services.clever-cloud.com:3306/bew3kbjtj9n5faq31kla";
+	
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         
         String nombre = request.getParameter("nombre");
@@ -43,7 +43,7 @@ public class solicitud_formulario extends HttpServlet {
         try {
             // Cargar el driver de MySQL
             Class.forName("com.mysql.cj.jdbc.Driver");
-            Connection conn = DriverManager.getConnection(DB_URL, "ueaxccosiwgfnuo5", "J9d5wTPIyWsgRyXmEJfd"); 
+            Connection conn = DriverManager.getConnection(DB_URL, "ueaxccosiwgfnuo5", "J9d5wTPIyWsgRyXmEJfd");
             
            
             String sql = "INSERT INTO solicitud (id_solicitud, nombre, telefono, email, direccion, reside, descripcion, ayuda_especifica) " +

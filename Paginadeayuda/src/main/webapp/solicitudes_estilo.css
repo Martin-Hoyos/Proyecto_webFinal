@@ -1,5 +1,5 @@
 @charset "UTF-8";
-/* Estilos globales */
+
 body {
     font-family: Arial, sans-serif;
     background-color: #f7faf7;
@@ -36,8 +36,6 @@ header p {
     font-size: 1rem;
 }
 
-/* Barra de navegación */
-/* Estilo de la barra de navegación fija en la parte superior */
 nav {
     position: fixed;
     top: 0;
@@ -58,11 +56,11 @@ nav ul {
     display: flex;
     justify-content: space-around;
     width: 100%;
-    max-width: 800px; /* Controla la longitud máxima del menú */
+    max-width: 800px;
 }
 
 nav ul li {
-    margin: 0 10px; /* Separación horizontal entre enlaces */
+    margin: 0 10px;
 }
 
 nav ul li a {
@@ -78,13 +76,10 @@ nav ul li a:hover {
     font-weight: bold;
 }
 
-/* Ajustes de los elementos de la página para que no queden debajo de la barra */
 header, main, section {
-    margin-top: 60px; /* Deja espacio debajo de la barra de navegación */
+    margin-top: 60px;
 }
 
-
-/* Estilo de la tabla de solicitudes */
 table {
     width: 90%;
     margin: 20px auto;
@@ -122,7 +117,6 @@ table tbody td {
     font-size: 0.95rem;
 }
 
-/* Estilos para la respuesta cuando no hay solicitudes */
 p {
     text-align: center;
     font-size: 1.1rem;
@@ -130,7 +124,6 @@ p {
     margin: 20px auto;
 }
 
-/* Estilo para los botones */
 .btn {
     display: inline-block;
     background-color: #188447;
@@ -149,7 +142,6 @@ p {
     background-color: #0f5d31;
 }
 
-/* Estilo para que la página sea adaptable */
 @media (max-width: 768px) {
     header, nav ul li {
         font-size: 0.9rem;
@@ -168,3 +160,13 @@ p {
         font-size: 0.9rem;
     }
 }
+
+#contacto {
+    background-color: #188447a1;
+    color: #fff;
+}
+
+#pie {
+    color: white;
+}
+

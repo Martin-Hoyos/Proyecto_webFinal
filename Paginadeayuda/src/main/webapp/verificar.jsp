@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>El poble</title>
     <link rel="shortcut icon" href="IMG/ElPOBLE.png">
-    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="piko.css">
 </head>
 <body>
     <header id="encabezado">
@@ -62,16 +62,16 @@
                 <img src="https://cdn.humanitycrew.org/wp-content/uploads/2021/01/Open-Arms-Logo.png" alt="Logo ONG 3" class="imagen-ong">
                 <div class="info-ong">
                     <h3>Open Arms</h3>
-                    <h4><a href="https://www.openarms.es/emergenciavalencia/" target="_blank">https://www.openarms.es/emergenciavalencia/</a></h4>
+                    <h4><a href="https://www.oxfamintermon.org/es/" target="_blank">https://www.openarms.es/emergenciavalencia/</a></h4>
                     <p>931282830</p>
                 </div>
             </div>   
             
             <div class="contenedor-ong">
-                <img src="https://th.bing.com/th/id/OIP.EAQ2xIfh3L-CCcYu0DSlPwHaIO?rs=1&pid=ImgDetMain" alt="Logo ONG 4" class="imagen-ong">
+                <img src="https://www.propeller.la/thumbs/800/files/wonly/oxfam_logo_vertical_green_rgb_93533.png" alt="Logo ONG 4" class="imagen-ong">
                 <div class="info-ong">
                     <h3>Oxfam</h3>
-                    <h4><a href="https://www.oxfamintermon.org/es/" target="_blank">https://www.oxfamintermon.org/es/</a></h4>
+                    <h4><a href="https://th.bing.com/th/id/OIP.EAQ2xIfh3L-CCcYu0DSlPwHaIO?rs=1&pid=ImgDetMain" target="_blank">https://www.oxfamintermon.org/es/</a></h4>
                     <p>900 22 33 00</p>
                 </div>
             </div>

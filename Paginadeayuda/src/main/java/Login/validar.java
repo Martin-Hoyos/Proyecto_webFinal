@@ -20,7 +20,11 @@ public class validar extends HttpServlet{
 	 * 
 	 */
 	private static final long serialVersionUID = 1L;
-	private static final String DB_URL = "jdbc:mysql://localhost:3306/dana";
+//	private static final String DB_URL = "jdbc:mysql://bew3kbjtj9n5faq31kla-mysql.services.clever-cloud.com:3306/bew3kbjtj9n5faq31kla";
+	
+	private static final String DB_URL = "jdbc:mysql://ueaxccosiwgfnuo5:J9d5wTPIyWsgRyXmEJfd@bew3kbjtj9n5faq31kla-mysql.services.clever-cloud.com:3306/bew3kbjtj9n5faq31kla";
+	
+	//mysql://ueaxccosiwgfnuo5:J9d5wTPIyWsgRyXmEJfd@bew3kbjtj9n5faq31kla-mysql.services.clever-cloud.com:3306/bew3kbjtj9n5faq31kla
 
 
 	    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
@@ -30,7 +34,7 @@ public class validar extends HttpServlet{
 	        try {
 	        	Class.forName("com.mysql.cj.jdbc.Driver");
 
-	            Connection conn = DriverManager.getConnection(DB_URL, "root", "");
+	            Connection conn = DriverManager.getConnection(DB_URL, "ueaxccosiwgfnuo5", "J9d5wTPIyWsgRyXmEJfd");
 	            
 	            String sql = "SELECT * FROM usuario WHERE nombre = ? AND contrasenia = ?";
 	            PreparedStatement stmt = conn.prepareStatement(sql);
